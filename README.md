@@ -14,7 +14,7 @@ Para generar las graficas debes seguir las siguientes instrucciones en la termin
 ```sh
 git clone
 cd app
-?
+python3 -m venv venv_app
 source venv_app/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
